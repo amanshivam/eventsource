@@ -60,6 +60,8 @@ var es = new EventSource(url, eventSourceInitDict);
 ```
 
 Note that for Node.js < v0.10.x this option has no effect - unauthorized HTTPS requests are *always* allowed.
+### HTTP redirect support added
+302 temporary redirection is automatically handled. 
 
 ### HTTP status code on error events
 
